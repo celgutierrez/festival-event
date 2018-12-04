@@ -48,14 +48,13 @@ div {
 .sec3 {
   background: lightblue;
   height: 650px;
-  margin: 0;
 }
 
 .links {
   background-color: rgba(0,0,0,.5);
   height: 25%;
   width: 25%;
-  margin: 20% auto;
+  margin: 250px auto;
   padding: 25px;
   display: inline-block;
 }
