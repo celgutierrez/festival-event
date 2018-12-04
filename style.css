@@ -8,6 +8,7 @@ body {
   padding: 0;
   position: relative;
   color: white;
+  font-family: 'Signika', 'Arial', sans-serif;
 }
 
 div {
@@ -47,13 +48,14 @@ div {
 .sec3 {
   background: lightblue;
   height: 650px;
+  margin: 0;
 }
 
 .links {
   background-color: rgba(0,0,0,.5);
   height: 25%;
   width: 25%;
-  margin: 250px auto;
+  margin: 20% auto;
   padding: 25px;
   display: inline-block;
 }
@@ -79,7 +81,7 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: #efefef;
+  background-color: rgba(0,0,0,.5);
   text-align: center;
 }
 
