@@ -48,6 +48,7 @@ div {
 .sec3 {
   background: lightblue;
   height: 650px;
+  text-align: center;
 }
 
 .links {
@@ -68,7 +69,7 @@ iframe {
 .box {
   height: 300px;
   width: 35%;
-  margin: 50px 0;
+  margin: 13% auto;
   padding: 50px;
   display: inline-block;
   background: rgba(0,0,0,.5);
