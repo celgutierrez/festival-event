@@ -58,12 +58,18 @@ div {
   height: 600px;
     background: url("https://images.unsplash.com/photo-1501527459-2d5409f8cf9f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77e5119bd913b6546f83fd5203be1bc9&auto=format&fit=crop&w=1000&q=60") no-repeat center center fixed;
   background-size: cover;
+  position: relative;
+  padding: 0;
 }
 
 iframe {
-  margin: 12% 10%;
+  margin: 0;
   width: 80%;
   height: 415px;
+  top: 15%;
+  left: 10%;
+  position: absolute;
+  display: block;
 }
 
 /* extras section */
