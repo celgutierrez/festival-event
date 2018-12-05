@@ -9,6 +9,10 @@ body {
   position: relative;
   color: white;
   font-family: 'Signika', 'Arial', sans-serif;
+  background-image: linear-gradient(#0250A8
+, #0061ff);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 div {
@@ -29,7 +33,6 @@ div {
   margin: 0;
   width: 20%;
   height: 20%;
-  background-color: grey;
   top: 40%;
   left: 40%;
   position: absolute;
@@ -39,7 +42,6 @@ div {
 /* links section */
 
 .sec1 {
-  background: lightblue;
   text-align: center;
 }
 
@@ -56,7 +58,7 @@ div {
 
 .sec2 {
   height: 600px;
-    background: url("https://images.unsplash.com/photo-1501527459-2d5409f8cf9f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77e5119bd913b6546f83fd5203be1bc9&auto=format&fit=crop&w=1000&q=60") no-repeat center center fixed;
+  background: url("https://images.unsplash.com/photo-1501527459-2d5409f8cf9f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77e5119bd913b6546f83fd5203be1bc9&auto=format&fit=crop&w=1000&q=60") no-repeat center center fixed;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -75,15 +77,15 @@ iframe {
 /* extras section */
 
 .sec3 {
-  background: lightblue;
   height: 650px;
   text-align: center;
+  padding: 0;
 }
 
 .box {
   height: 300px;
   width: 35%;
-  margin: 13% auto;
+  margin: 10% auto;
   padding: 50px;
   display: inline-block;
   background: rgba(0,0,0,.5);
@@ -97,8 +99,9 @@ footer {
   bottom: 0;
   left: 0;
   padding: 1rem;
-  background-color: rgba(0,0,0,.5);
-  text-align: center;
+  background-color: rgba(0,0,0,.7);
+  text-align: right;
+  font-size: 10px;
 }
 
 @media screen and (max-width: 600px) {
