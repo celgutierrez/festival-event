@@ -62,10 +62,6 @@ div {
   height: 100%;
   margin-right: 10px;
   position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 
 .carousel-cell.is-selected {
