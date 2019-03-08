@@ -23,7 +23,7 @@ div {
 /* logo section */
 
 #header-pic {
-  background: url("https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=be465b88fdf21a6e05ab522458452344&auto=format&fit=crop&w=1000&q=60") no-repeat center center fixed;
+  background: url("../img/header.jpg") no-repeat center center fixed;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -40,17 +40,68 @@ div {
   display: block;
 }
 
-/* carousel */
+/* carousel section */
 
-div .pic-carousel {
+.sec {
+  height: 500px;
+  margin: 0;
+  background-color: #0250A8;
+  display: block;
   overflow: hidden;
 }
 
-.pic-carousel {
-  height: 500px;
+#container {
+  height:100%;
   width: 100%;
-  margin: 0;
-  background-color: lightblue ;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-cell {
+  width: 100%;
+  height: 100%;
+  margin-right: 10px;
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.carousel-cell.is-selected {
+  background: #ED2;
+}
+
+.flickity-prev-next-button {
+  width: 100px;
+  height: 100px;
+}
+
+.flickity-page-dots {
+  bottom: 0px;
+}
+
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
+
+.flickity-button-icon {
+  fill: white;
+}
+
+.carousel-cell h2 {
+  position: absolute;
+  margin-left: 10%;
+  margin-top: 5%;
+  font-weight: 800;
+  font-size: 3em;
+}
+
+.carousel-cell img {
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  width: 100%;
 }
 
 /* links section */
@@ -75,13 +126,11 @@ div .pic-carousel {
   margin: 10% auto;
 }
 
-
-
 /* video section */
 
 .sec2 {
   height: 600px;
-  background: url("https://images.unsplash.com/photo-1501527459-2d5409f8cf9f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=77e5119bd913b6546f83fd5203be1bc9&auto=format&fit=crop&w=1000&q=60") no-repeat center center fixed;
+  background: url("../img/sec2.jpg") no-repeat center center fixed;
   background-size: cover;
   position: relative;
   padding: 0;
@@ -140,21 +189,32 @@ footer {
     background-size: cover;
   }
   
+.sec3 {
+  padding: 0;
+  overflow: hidden;
+  height: 100px;
+  position: relative;
+ }
+  
   iframe {
-    margin: 20% 0;
+    margin: 0;
     width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
   }
   
-  .sec3 {
-    padding: 5% 0;
-    overflow: hidden;
-  }
+
  
   .box {
     width: 100%;
-    margin: 10px auto;
-    height: 35%;
+    margin: 0;
+    height: 45%;
     display: block;
+  }
+  
+  footer {
+    margin-top: 1em;
   }
 
 }

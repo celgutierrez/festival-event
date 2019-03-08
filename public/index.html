@@ -4,6 +4,10 @@
     <title>Festival</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   </head>
 
 
@@ -13,7 +17,25 @@
       logo would be here
     </div>
   </div>
-  <div class="pic-carousel" id="carousel">
+  <div class="sec">
+    <div id="container" class="main-carousel">
+      <div class="carousel-cell">
+          <h2>Tickets On Sale Now!</h2>
+          <img src="img/img1.jpg">
+        </div>
+      <div class="carousel-cell">
+          <h2>The Journey Is Almost Beginning</h2>
+          <img src="img/img4.jpg">
+      </div>
+      <div class="carousel-cell">
+          <h2>Camping Passes</h2>
+          <img src="img/img2.jpg">
+      </div>
+      <div class="carousel-cell">
+          <h2>Payment Plans</h2>
+          <img src="img/img3.jpg">
+      </div>
+    </div>
   </div>
   <div class="sec1">
     <div class="links">
@@ -49,12 +71,11 @@
       <span id="like_button_container"></span> made with &#x2764; by Celina Gutierrez
   </footer>
 
-
   <!-- Load React. -->
   <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
   <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
   <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
-
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
   <!-- React component -->
   <script src="app/like_button.js"></script>
   <script src="app/carousel.js"></script>

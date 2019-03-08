@@ -1,0 +1,27 @@
+{
+  "name": "festival-event",
+  "description": "<h1>Festival Event</h1>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "webpack-dev-server": "^3.2.1"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "build": "babel src -d lib",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celgutierrez/festival-event.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celgutierrez/festival-event/issues"
+  },
+  "dependencies": {
+    
+  },
+  "homepage": "https://github.com/celgutierrez/festival-event#readme"
+}
