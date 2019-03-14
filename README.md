@@ -6,7 +6,6 @@
   <li>festival information pages</li>
   <li>carousel links</li>
   <li>additional links below carousel</li>
-  <li>nav</li>
   <li>basic checkout</li>
 </ul>
 
