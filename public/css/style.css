@@ -41,6 +41,30 @@ div {
   display: block;
 }
 
+/* navigation */
+nav {
+  background-color: #061038;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+nav ul {
+  list-style: none;
+  padding: 2em;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  padding: 1em;
+}
+
+nav li:hover {
+  background-color:#454f79;
+}
+
 /* carousel section */
 
 .sec {
@@ -66,7 +90,7 @@ div {
 }
 
 .carousel-cell.is-selected {
-  background: #ED2;
+  background: #0250A8;
 }
 
 .flickity-prev-next-button {
