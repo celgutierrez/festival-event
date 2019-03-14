@@ -8,6 +8,7 @@ body {
   padding: 0;
   position: relative;
   color: white;
+  text-transform: uppercase;
   font-family: 'Signika', 'Arial', sans-serif;
   background-image: linear-gradient(#0250A8
 , #0061ff);
@@ -85,12 +86,59 @@ div {
   fill: white;
 }
 
-.carousel-cell h2 {
+.car-div {
   position: absolute;
+  width: 70%;
+  height: auto;
+  margin: 0;
+  padding: 1em;
   margin-left: 10%;
-  margin-top: 5%;
+  margin-top: 15%;
+  background-color: rgba(0,0,0,.5);
+}
+
+.carousel-cell h2 {
   font-weight: 800;
   font-size: 3em;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.carousel-cell h3 {
+  display: block;
+  margin: 0;
+}
+
+.car-btn {
+  position: absolute;
+  font-size: 16px;
+  margin-top: 28%;
+  margin-left: 10%;
+  font-weight: 600;
+  border: none;
+  padding: .8em 0 .8em .8em;
+  background-color: white;
+}
+
+.left-btn, .right-btn {
+  margin: 0;
+  height: 100%;
+  padding: .7em;
+}
+
+.left-btn {
+  width: 75%;
+  background-size: cover;
+  color: black;
+  font-size: 17px;
+}
+
+.right-btn {
+  width: 25%;
+  font-weight: 800;
+  background-color: #ff0049;
+  color: white;
 }
 
 .carousel-cell img {
