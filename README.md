@@ -9,7 +9,7 @@
   <li>basic checkout</li>
 </ul>
 
-<h2>Stetch Goals:</h2>
+<h2>Stretch Goals:</h2>
 <ul>
   <li>ticket DB - MySQL</li>
   <li>purchase ticket functionality</li>
