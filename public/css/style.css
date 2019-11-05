@@ -1,10 +1,12 @@
 html {
   height: 100%;
-  box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
+  height: 100%;
   margin: 0;
+  overflow: auto;
   padding: 0;
   position: relative;
   color: white;
@@ -17,7 +19,7 @@ body {
 }
 
 div {
-  height: 800px;
+  height: 100vh;
   width: 100%;
 }
 
@@ -43,6 +45,8 @@ div {
 
 /* navigation */
 nav {
+  z-index: 99;
+  top:0;
   background-color: #061038;
   display: flex;
   flex-direction: row;
@@ -70,7 +74,6 @@ nav li:hover {
 /* carousel section */
 
 .sec {
-  height: 500px;
   margin: 0;
   background-color: #0250A8;
   display: block;
@@ -102,6 +105,7 @@ nav li:hover {
 
 .flickity-page-dots {
   bottom: 0px;
+  display: none;
 }
 
 .flickity-page-dots .dot.is-selected {
@@ -178,17 +182,18 @@ nav li:hover {
 
 .sec1 {
   text-align: center;
-  height: 25%;
   min-height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .links {
   background-color: rgba(0,0,0,.5);
   margin: 0;
-  height: 300px;
+  height: 400px;
   width: 28%;
   padding: 25px;
-  display: inline-block;
   position: relative;
 }
 
@@ -199,9 +204,11 @@ nav li:hover {
 /* video section */
 
 .sec2 {
-  height: 600px;
   background: url("../img/sec2.jpg") no-repeat center center fixed;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  /*align-items: center;*/
   position: relative;
   padding: 0;
 }
@@ -209,17 +216,17 @@ nav li:hover {
 iframe {
   margin: 0;
   width: 80%;
-  height: 415px;
-  top: 15%;
-  left: 10%;
-  position: absolute;
-  display: block;
+  height: 70%;
+  /*position: absolute;*/
+  /*display: block;*/
 }
 
 /* extras section */
 
 .sec3 {
-  height: 650px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
   padding: 0;
 }
@@ -227,32 +234,36 @@ iframe {
 .box {
   height: 300px;
   width: 35%;
-  margin: 10% auto;
   padding: 50px;
-  display: inline-block;
   background: rgba(0,0,0,.5);
 }
 
 /* footer */
 
+
 footer {
-  position: absolute;
-  right: 0;
+  position: fixed;
   bottom: 0;
-  left: 0;
-  padding: 1rem;
+  z-index: 00;
+  width: 100%;
   background-color: rgba(0,0,0,.8);
-  text-align: right;
-  font-size: 10px;
+  font-size: 12px;
 }
 
-@media screen and (max-width: 600px) {
+.footer-info {
+  text-align: right;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+
   .sec1 {
     overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
   }
   
   .links {
-    display: block;
     margin: 0;
     height: 30%;
     width: 100%;

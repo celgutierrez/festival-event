@@ -3,6 +3,7 @@
 
 <h2>Next to Add:</h2>
 <ul>
+  <li>implement React</li>
   <li>festival information pages</li>
   <li>carousel links</li>
   <li>additional links below carousel</li>
